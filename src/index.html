@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1, 100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <title>Job Portal Site | Using Bootstrap</title>
+</head>
+
+
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-md  shadow-sm">
+            <div class="container-fluid">
+
+                <a class="navbar-brand d-flex align-items-center mx-sm-auto" href="#">
+                    <img src="https://img.icons8.com/pastel-glyph/64/blockchain-transactions--v2.png"
+                        alt="blockchain-transactions" width="30" height="30" class="d-inline-block align-text-top me-2">
+                    Job Portal
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Youtube</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+
+
+                        <button type="button" class="btn btn-primary text-nowrap">
+                            Sign in
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <!--hero section-->
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-12  col-lg-6 "> <img id="banner"
+                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="d-block mx-lg-auto img-fluid" alt="Technology" loading="lazy"> </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start">About Us
+                    </h1>
+                    <p class="lead">At NextGen Tech Solutions, we’re passionate about building innovative software that
+                    </p>
+                    <p class="lead">We’re growing fast and looking for talented individuals to join us. Currently, we’re
+                        hiring for:</p>
+                    <ul class="lead">
+                        <li>Frontend Developer</li>
+                        <li>Fullstack Developer</li>
+                        <li>Machine Learning Engineer</li>
+                        <li>Data Scientist</li>
+                    </ul>
+                    <p class="lead">If you’re ready to take on exciting challenges and work with a team of passionate
+                        innovators, we’d love to hear from you!</p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Job opportunity section-->
+        <div class="container px-4 mt-4">
+            <h2 class="display-5 fw-bold text-center ">Job Opportunities</h2>
+
+            <div class="d-md-none">
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Frontend Developer</h5>
+                        <h6 class="card-subtitle my-1 text-body-secondary">Bengalur, India | ₹12,00,000</h6>
+                        <small class="card-text text-body-secondary">Posted Aug 10, 2025</small>
+                    </div>
+                </div>
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Fullstack Developer</h5>
+                        <h6 class="card-subtitle my-1 text-body-secondary">New Delhi, India | ₹15,00,000</h6>
+                        <small class="card-text text-body-secondary">Posted Aug 15, 2025</small>
+                    </div>
+                </div>
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">ML Engineer</h5>
+                        <h6 class="card-subtitle my-1 text-body-secondary">San Francisco, USA | $175,000</h6>
+                        <small class="card-text text-body-secondary">Posted Aug 18, 2025</small>
+                    </div>
+                </div>
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Scientist</h5>
+                        <h6 class="card-subtitle my-1 text-body-secondary">Remote | ₹16,00,000</h6>
+                        <small class="card-text text-body-secondary">Posted Aug 5, 2025</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-none d-md-block col-lg-8 offset-lg-2 ">
+                <table class="table table-bordered table-striped">
+                    <tr class="table-primary text-center">
+                        <th rowspan="2">Job Title</th>
+                        <th colspan="2">Location</th>
+                        <th rowspan="2">Salary</th>
+                        <th rowspan="2">Posted on</th>
+                    </tr>
+                    <tr class="table-primary text-center">
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr class="">
+                        <td>Frontend Developer</td>
+                        <td>Bengaluru</td>
+                        <td>India</td>
+                        <td>₹12,00,000</td>
+                        <td>August 10, 2025</td>
+                    </tr>
+                    <tr class="">
+                        <td>Full Stack Developer</td>
+                        <td>New Delhi</td>
+                        <td>India</td>
+                        <td>₹15,00,000</td>
+                        <td>August 7, 2025</td>
+                    </tr>
+                    <tr class="">
+                        <td>Data Scientist</td>
+                        <td>San Francisco</td>
+                        <td>USA</td>
+                        <td>$175,000</td>
+                        <td>August 5, 2025</td>
+                    </tr>
+                    <tr class="">
+                        <td>Machine Learning Engineer</td>
+                        <td colspan="2">Remote</td>
+                        <td>$160,000</td>
+                        <td>August 9, 2025</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--Form section-->
+        <div class="container px-4 mt-5 ">
+            <h2 class="text-center fw-bold">Submit Your Application</h2>
+            <div class="col-md-6 mt-4  col-lg-8 offset-lg-2">
+                <form action="https://formbold.com/s/obDgd" method="POST" enctype="multipart/form-data">
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="Name" class="form-label mt-3">Name</label>
+                        <input class="form-control" id="Name" name="name" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="Ph" class="form-label mt-3">Phone number</label>
+                        <input type="number" class="form-control" id="Ph" name="ph" placeholder="+911234567890"
+                            required>
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="Email" class="form-label mt-3">Email address</label>
+                        <input type="email" class="form-control" id="Email" name="email" aria-describedby="emailHelp"
+                            placeholder="Example@Example.com" required>
+                    </div>
+
+                    <div class="form-check form-check-inline mb-3 ">
+                        <input class="form-check-input" type="radio" name="Gender" id="Male" value="Male" required>
+                        <label class="form-check-label" for="Male">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Gender" id="Female" value="Female" required>
+                        <label class="form-check-label" for="Female">Female</label>
+                    </div>
+
+
+                    <div class="mb-3 col-lg-6">
+                        <div class="mb-2"><label for="Dob">Date of Birth</label></div>
+                        <input class="form-control" type="date" id="Dob" name="date of birth" required>
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <div class="mb-2"><label for="Position">Position Applied</label></div>
+                        <select class="form-select" id="Position" name="position" aria-label="Default select example"
+                            required>
+                            <option selected>Select Option</option>
+                            <option value="FD">Frontend Developer</option>
+                            <option value="FUD">Fullstack Developer</option>
+                            <option value="DS">Data Scientist</option>
+                            <option value="ML">ML Engineer</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 col-lg-6">
+                        <label for="File" class="form-label">Upload Resume</label>
+                        <input type="file" id="File" class="form-control" name="file">
+                    </div>
+
+                    <div class="mb-3 col-lg-12">
+                        <label for="Textarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="Textarea" name="textarea" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="condition" id="check">
+                        <label class="form-check-label" for="check">
+                            I accept the terms and conditions.
+                        </label>
+                    </div>
+
+                    <div class="mb-3 row d-md-none">
+                        <button type="button" class="btn btn-primary">Submit Application</button>
+                    </div>
+                    <div class="mb-3 d-none d-md-block">
+                        <button type="button" class="btn btn-primary">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="py-3 mt-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2025 Company, Inc</p>
+    </footer>
+
+    <!--bootstrap javascript integration-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
